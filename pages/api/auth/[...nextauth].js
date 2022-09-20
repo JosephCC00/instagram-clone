@@ -10,6 +10,14 @@ export const authOptions = {
     // ...add more providers here
   ],
 
+  /**
+   * !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+   * !! FOR SOME STUPID FUCKING REASON, YOU HAVE TO PUT A SECRET KEY HERE SO PRODUCTION DOESN'T CRAP WITH ERROR
+   * !! yarn build -> yarn start
+   * !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+   */
+  secret: "IamVeryHandsome",
+
   pages: {
     signIn: "/auth/signin",
   },
